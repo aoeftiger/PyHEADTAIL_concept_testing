@@ -611,6 +611,8 @@ def get_beam(n_mp=int(1e6), seed=1500000000):
     return beam
 
 
+beam = get_beam()
+
 # ### II. 1. Just the tracking without multi-particle interaction
 
 # Creating the one turn map around the accelerator ring with some physics parameters:
